@@ -1,0 +1,103 @@
+/* Configurações Gerais do Site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5f5; /* Fundo vermelho bem claro/suave */
+    color: #3e1b1b; /* Texto cinza bem escuro com tom avermelhado */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho principal */
+header {
+    background-color: #b32424; /* Vermelho escuro/alerta */
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Container de Conteúdo */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+/* Caixas de Seções (Cards) */
+section {
+    background-color: #ffffff;
+    border-left: 5px solid #d93838; /* Linha de destaque lateral vermelha */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #901c1c; /* Vermelho escuro para subtítulos */
+    margin-top: 0;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #f5c2c2;
+    padding-bottom: 0.5rem;
+}
+
+/* Listas estilizadas */
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Botão Interativo */
+.btn-alerta {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto;
+    background-color: #d93838; /* Vermelho vivo */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 4px 6px rgba(217, 56, 56, 0.2);
+}
+
+/* Efeito de passar o mouse no botão */
+.btn-alerta:hover {
+    background-color: #b32424;
+    transform: translateY(-2px);
+}
+
+/* Efeito de clicar no botão */
+.btn-alerta:active {
+    transform: translateY(0);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #3e1b1b;
+    color: #f5c2c2;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}

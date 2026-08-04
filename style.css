@@ -13,7 +13,7 @@ header {
     background-color: #b32424; /* Vermelho escuro/alerta */
     color: #ffffff;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 1rem; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
